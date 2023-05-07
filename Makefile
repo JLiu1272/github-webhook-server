@@ -7,3 +7,5 @@ build:
 
 run: 
 	@go run server.go
+
+start: build run

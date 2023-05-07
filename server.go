@@ -45,7 +45,7 @@ func main() {
 
     //tell it to call the HelloHandler() function
     //when someone requests the resource path `/hello`
-    mux.HandleFunc("/hello", HelloHandler)
+    mux.HandleFunc("/", HelloHandler)
 
     //start the web server using the mux as the root handler,
     //and report any errors that occur.
